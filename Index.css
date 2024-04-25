@@ -1,0 +1,160 @@
+/*
+  
+      Portfolio Project
+      Author: Peter Vang
+      Date:   05-20-2018 
+*/
+
+/* Body styles */
+
+body {
+   background-color: rgb(24, 48, 56);
+   margin: 0px auto;
+   width: 960px;
+}
+
+
+/* Header styles */
+   
+header{
+   margin: auto;
+   height: 120px;
+   width: 100%;
+}
+
+header nav {
+   background-color: rgb(18, 15, 12);
+   height: 50px;
+   margin-left: 124px; 
+}
+
+header nav li {
+   display: block;
+   float: left;
+   line-height: 42px;
+   text-align: center;
+   width: 25%;
+}
+
+header nav li a {
+   color:azure;
+   font-variant: small-caps;
+   font-size: 1.5em;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   text-decoration: none;
+}
+
+header nav li a:hover{ 
+    color: rgba(23, 94, 146, 0.8); 
+    font-size: 25px;
+}
+
+/* Hpyer link styles */
+#home a{
+    font-size: 35px; 
+}
+
+a{
+    color: darkgray; 
+    text-decoration: none;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+/* Heading h2 styles */
+header h2{
+    text-shadow: 1px 1px 3px white;
+    font-size: 70px;
+    color: aliceblue; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+
+/* Section page styles */
+section#page article {
+   background-color: rgb(18, 15, 12);
+   position:relative;
+   top: 22px;
+   left: 125px;
+   width: 835px;
+   height: 1000px;
+}
+
+section#page article h2 {
+   color: aliceblue;
+   font-size: 35px;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   letter-spacing: 5px;
+   text-align: left;
+    margin-left: 70px;
+   padding-top: 10px;
+   width: 100%;
+}
+
+section#page article p#firstp {
+    margin-left: 320px;
+}
+
+section#page article p#secondp{
+      margin-left: 320px;
+}
+
+section#page article p#firstp::first-letter{
+    font-size: 200%; 
+}
+
+section#page article img {
+   border-radius: 25px;
+   width: 35%;
+   float: left; 
+   margin-left: 30px;
+}
+
+section#page article p {
+    color: aliceblue;
+   font-size: 20px;
+   text-align:left;
+   line-height: 40px;
+   margin-right: 20px;
+     padding-left: 35px;
+}
+
+/* Table styles */
+
+table{
+    color:aliceblue;
+    border: 5px outset gray; 
+    margin-left: 120px;
+}
+
+table caption{
+    font-size: 25px; 
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid aliceblue; 
+}
+
+table td{
+    text-align: center; 
+}
+
+/* Footer styles*/
+
+footer address{
+    background-color: rgb(18, 15, 12);
+   color: aliceblue;
+   margin-top: 100px;
+    margin-left: 124px;
+   font-size: 15px;
+   padding-bottom: 20px;
+   padding-top: 10px;
+   word-spacing: 2px;
+    text-align: center; 
+}
+

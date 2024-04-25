@@ -1,0 +1,129 @@
+/*
+  
+      Portfolio Project
+      Author: Peter Vang
+      Date:   05-20-2018 
+*/
+
+
+/* Body styles */
+
+body {
+    background-color: rgb(24, 48, 56);
+    margin: 0px auto;
+    width: 960px;
+}
+
+
+/* Header styles */
+
+header {
+    height: 120px;
+    width: 100%;
+}
+
+header nav li a {
+    color: aliceblue;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#projects a {
+    font-size: 35px
+}
+
+header nav li a:hover {
+    color: rgba(23, 94, 146, 0.8);
+    font-size: 25px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+
+/* Navigation list in header */
+
+header nav {
+    background-color: rgb(18, 15, 12);
+    height: 50px;
+    margin-left: 124px;
+}
+
+header nav li {
+    display: block;
+    float: left;
+    line-height: 42px;
+    text-align: center;
+    width: 20%;
+}
+
+section#page h2 {
+    color: aliceblue;
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+
+/* Main section article styles */
+
+
+
+section#page article h2 {
+    color: darkorange;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    float: left;
+    padding-top: 10px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+section#page article img {
+    display: block;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+section#page article p {
+    color: aliceblue;
+    font-size: 20px;
+    margin: 20px 30px 20px 30px;
+    text-align: left;
+}
+
+a {
+    color: darkgray;
+}
+#page article {
+    background: linear-gradient(to bottom right, black, white) !important;
+    position: relative;
+    left: 125px;
+    width: 835px;
+    height: 3100px;
+}
+
+
+/* Page footer styles */
+
+footer address {
+    background-color: rgb(18, 15, 12);
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 124px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    word-spacing: 2px;
+    text-align: center;
+}

@@ -1,0 +1,233 @@
+/*
+  
+      Portfolio Project
+      Author: Peter Vang
+      Date:   05-20-2018 
+*/
+
+
+/* Body styles */
+
+body {
+    background-color: rgb(24, 48, 56);
+    margin: 0px auto;
+    width: 960px;
+}
+
+
+/* Header styles */
+
+header {
+    height: 120px;
+    width: 100%;
+}
+
+header nav li a {
+    color: aliceblue;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: rgba(23, 94, 146, 0.8);
+    font-size: 25px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+
+/* Navigation list in header */
+
+header nav {
+    background-color: rgb(18, 15, 12);
+    height: 50px;
+    /* margin-left: 124px; */
+}
+
+#contact a {
+    font-size: 35px;
+}
+
+header nav li {
+    display: block;
+    float: left;
+    line-height: 42px;
+    text-align: center;
+    width: 20%;
+}
+
+
+/* Main section article styles */
+
+section#page {
+    background-color: rgb(18, 15, 12);
+    position: relative;
+    top: 22px;
+    /* left: 125px; */
+    width: 835px;
+    height: 1050px;
+    margin: auto;
+}
+
+section#page aside {
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+section#page article p {
+    color: aliceblue;
+    font-size: 16px;
+    margin: 20px 30px 0px 20px;
+    text-align: left;
+}
+
+section#page legend {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: beige
+}
+
+
+/* Page footer styles */
+
+footer address {
+    background-color: rgb(18, 15, 12);
+    color: aliceblue;
+    margin-top: 150px;
+    margin-left: 124px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+fieldset {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    ;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 30px;
+    padding: 5px;
+    width: 90%;
+}
+
+
+/* Styles for labels */
+
+label {
+    color: darkgrey display block;
+    clear: left;
+    float: left;
+    font-size: 0.9em;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* Styles for the input */
+
+input {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    width: 40%;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Styles for the textarea */
+
+textarea {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+
+/* Styles for the submit button */
+
+#submit {
+    display: block;
+    clear: both;
+    float: left;
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+#submit:hover {
+    font-size: 18px;
+    color: darkolivegreen;
+}
+
+
+/* Styles for the input focus */
+
+input:focus {
+    background-color: rgb(225, 225, 240);
+}
+
+input:focus:valid {
+    background-color: rgb(225, 240, 225);
+}
+
+input:focus:invalid {
+    background-color: rgb(240, 225, 225);
+}
+
+#outputMessage {
+    font-size: 30px;
+    color: rgb(47, 133, 231);
+}
+
+.message {
+    position: relative;
+    margin-top: 100px;
+}
+
+.numberofContacts {
+    /* display: flex; */
+    font-size: 30px;
+    /* display:contents; */
+    padding-left: 70px;
+}
+
+.numberofContacts h4 {
+    /* font-size: 20px; */
+    border: 1px solid rgb(47, 133, 231);
+    color: azure;
+}
+
+#contactNumber{
+    color: rgb(50, 241, 226);
+}

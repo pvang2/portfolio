@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" content="Peter Portfolio" />
+
+    <title>Peter Vang</title>
+
+    <link href="Contact.css" rel="stylesheet" />
+    <script src="./components/navigator.js"></script> 
+    <script src="./components/footer.js"></script>
+    <script src="form.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <custom-nav></custom-nav>
+    </header>
+    <div class="numberofContacts">
+        <h4>Number of contacts so far: <span id="contactNumber"></span></h4>
+    </div>
+
+    <section id="page">
+
+        <aside>Thank you for visiting my website. Please feel free to leave your information and a message.</aside>
+        <form id="contact-form" method="post">
+            <fieldset name="commentFS" id="commentFS">
+                <legend>Contact Form</legend>
+                <label for="businessName">Business Name</label>
+                <input name="businessName" id="businessName" title="Please provide your business name">
+
+                <label for="firstName">First Name *</label>
+                <input name="firstName" id="firstName" required title="Please provide your first name">
+
+                <label for="lastName">Last Name *</label>
+                <input name="lastName" id="lastName" required title="Please provide your last name">
+
+                <label for="city">City *</label>
+                <input name="city" id="city" placeholder="Wausau" required title="Please provide your city">
+
+                <label for="state">State *</label>
+                <input name="state" id="state" placeholder="WI" required title="Please provide your state">
+
+                <label for="zipcode">Zip Code *</label>
+                <input name="zipcode" id="zipcode" placeholder="54401" required title="Please provide your zipcode">
+
+                <label for="phone">Phone Number *</label>
+                <input name="phone" id="phone" type="tel" placeholder="(nnn)-nnn-nnnn" required title="Pleast provide a call back number">
+
+                <label for="email">Email Address *</label>
+                <input name="email" id="email" type="email" placeholder="example2@email.com" required>
+
+                <label for="commentBox">Brief Message (500 character max)</label>
+                <textarea name="commentBox" id="commentBox" maxlength="500"></textarea>
+            </fieldset>
+                <input type="submit" id="submit" value="Submit Comment">
+        </form>
+        <div class="message">
+            <p id="outputMessage"></p>
+        </div>
+    </section>
+    <footer>
+        <custom-foot></custom-foot>
+    </footer>
+
+</body>
+
+</html>
